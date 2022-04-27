@@ -18,6 +18,7 @@ class TPQueue {
     item->prev = prev;
     return item;
   }
+  
  public:
   TPQueue() :head(nullptr), tail(nullptr) {}
   ~TPQueue() {
@@ -61,8 +62,10 @@ class TPQueue {
     return data;
   }
 };
+
 struct SYM {
   char ch;
   int prior;
 };
+
 #endif  // INCLUDE_TPQUEUE_H_
